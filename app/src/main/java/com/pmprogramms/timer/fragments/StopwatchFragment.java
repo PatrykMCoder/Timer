@@ -122,7 +122,7 @@ public class StopwatchFragment extends Fragment {
 
     private void createLap() {
         //todo <- make it better pls
-        lapsString += totalString + "\n\n";
+        lapsString = totalString + "\n\n" + lapsString;
         lapsTV.setText(lapsString);
     }
 }
